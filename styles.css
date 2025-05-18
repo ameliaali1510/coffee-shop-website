@@ -1,3 +1,5 @@
+ /* Color Palette */
+
  :root {
      --black: #000000;
      --white: #ffffff;
@@ -9,7 +11,9 @@
      /* Soft orange */
  }
 
+ /* Global Styles */
  body {
+
      background-color: var(--light-grey);
      color: var(--dark-grey);
      margin: 0;
@@ -28,6 +32,7 @@
 
  }
 
+ /* Navigation Bar */
  nav {
      background-color: var(--black);
      padding: 1rem;
@@ -47,9 +52,10 @@
      font-weight: bold;
  }
 
+ /* Header */
  header {
-     background-colour: var(--primary-color);
-     colour: var(--white);
+     background-color: var(--primary-color);
+     color: var(--white);
      padding: 2rem;
  }
 
@@ -74,6 +80,7 @@
  }
 
  .menu-item {
+    padding-bottom: 5px;
      display: inline-block;
      margin: 1rem;
      background-color: var(--white);
@@ -96,6 +103,7 @@
  }
 
 
+ /* Footer */
  footer {
      background-color: var(--dark-grey);
      color: var(--white);
@@ -112,3 +120,7 @@
      font-size: 1.2rem;
      margin: 0 10px;
  }
+
+
+ 
+     
